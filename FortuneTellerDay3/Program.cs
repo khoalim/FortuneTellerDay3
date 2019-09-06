@@ -25,12 +25,13 @@ namespace FortuneTellerDay3
             Console.WriteLine("What's your favorite ROYGBIV color?");
             string color = Console.ReadLine();
 
+
             if (color.ToLower().Equals("red") || color.ToLower().Equals("orange") || color.ToLower().Equals("yellow") || color.ToLower().Equals("green") || color.ToLower().Equals("blue") || color.ToLower().Equals("indigo") || color.ToLower().Equals("violet"))
             {
                 Console.WriteLine("That's Awesome!");
             }
 
-            else if
+            else 
             {
                 Console.WriteLine("Type HELP to get a list of ROYGBIV colors");
                 string helpLine = Console.ReadLine();
@@ -62,8 +63,6 @@ namespace FortuneTellerDay3
 
 
                 }
-
-
 
 
             }
